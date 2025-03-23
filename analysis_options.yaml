@@ -1,0 +1,27 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  errors:
+    dead_code: ignore
+    unused_import: ignore
+    unused_local_variable: ignore
+    todo: ignore
+    prefer_const_constructors: ignore
+    prefer_final_fields: ignore
+    prefer_single_quotes: ignore
+    avoid_print: ignore
+    unnecessary_this: ignore
+    non_constant_identifier_names: ignore
+    unnecessary_new: ignore
+    must_be_immutable: ignore
+    prefer_typing_uninitialized_variables: ignore
+    sort_child_properties_last: ignore
+
+linter:
+  rules:
+    avoid_print: false
+    prefer_single_quotes: false
+    prefer_const_constructors: false
+    prefer_final_fields: false
+    unnecessary_this: false
+    sort_child_properties_last: false
